@@ -33,7 +33,7 @@ namespace SweetCaptcha
                 { "app_id", _appId },
                 { "app_key", _appKey },
                 { "method", "get_html" },
-                { "platform", "api" },
+                { "platform", "sweetcaptcha-dotnet" },
             };
             var request = await client.PostAsync(_host, new FormUrlEncodedContent(parameters));
             return await request.Content.ReadAsStringAsync();
@@ -47,7 +47,7 @@ namespace SweetCaptcha
                 {"app_id", _appId},
                 {"app_key", _appKey},
                 {"method", "check"},
-                {"platform", "api"},
+                {"platform", "sweetcaptcha-dotnet"},
                 {"sckey", sckey},
                 {"scvalue", scvalue}
             };
