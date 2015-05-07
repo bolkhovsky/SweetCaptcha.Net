@@ -40,6 +40,6 @@ var sweetcaptcha = new SweetCaptcha.SweetCaptcha(
 
 ### Public methods
 
-1. `public async Task<string> GetHtml();`
+1. `public async Task<string> GetHtml(string language, bool isAutoSubmit = false);`
 2. `public async Task<bool> Check(string sckey, string scvalue);`
 
