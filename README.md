@@ -1,4 +1,4 @@
-## Attention! [The sweetCAPTCHA script is responsible for unwanted and potentially malicious popups](https://blog.sucuri.net/2015/06/sweetcaptcha-service-used-to-distribute-adware.html) (as it is investigated by Denis Sinegubko and other fellows). It was OK when I created this integration, but since 2015 it's screwed up. Use it on your own risk (e.g.: do not use it)!
+## Attention! [The sweetCAPTCHA script is responsible for unwanted and potentially malicious popups](https://blog.sucuri.net/2015/06/sweetcaptcha-service-used-to-distribute-adware.html) (as it is investigated by Denis Sinegubko and other fellows). It was OK when I created this integration, but since 2015 it was screwed up. Use it on your own risk (or simply do not use it)!
 
 # sweetCaptcha .NET SDK
 
